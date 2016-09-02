@@ -1,0 +1,106 @@
+[?8/?29/?2016 2:11 PM] Eapen, Ashok (Cognizant): 
+issas@nus.edu.sg 
+hi
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<message schema_version="3644767c-2632-411a-9416-44f8a7dee08e" session_guid="535cd3f1-84b7-42d9-b9f6-7ed4e78580e2">
+  <request type="createdevice" xaction_guid="9cf90928-fabc-4a9f-a22f-c830a90fc009">
+    <params>
+      <device_uri>{61e08b77-df3c-4735-9f3b-0b42efb7bdcf}/{V7777777BX}</device_uri>
+      <country>US</country>
+      <region>United States</region>
+    </params>
+  </request>
+</message>
+
+
+Create device 
+=============
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e' session_guid='95f77eb0-0bbd-4f47-9eee-7b41a661b953'><request type='createdevice' xaction_guid='e1c38f30-50a0-4ccf-a74a-c7ec11b54544'><params><device_uri>{CEFC1E07-CFF6-4F27-AB05-4577A33A1BA8-7bdcf}/{TFP4026DX}</device_uri><country>US</country><region>United States</region></params></request></message>
+
+SEEhMPoSbXPoSFl9V2TiNx98WGtFT73uARREt+1+V+YoPSy0m7HxCC0iW80WH1gmrZI5cAAmMOlrjKqZ1LvA3CKxD7hMFOYPlBhkLcuD/7SvK4bZZQ2YOWtf5zrkkYMBmuyeMm8AfDm/PAw7NqSFuR+RROVk+tkaojH5QL8oCsxgJjMpC5h/We3SpE4DBy+8KPy1Pqin8gImuY3ea+CVauZTouv0SblDrWX2Ejxb5zRDwbbOeiqtk9a4KOuC8LsD0M+jqmM5/e0QKvhekMKG7PDSrSdT++wzErxTGSi6GADseHh76OlskPYiqy0nUhWId8w3eyig0nnVldGty2k6z8J57oc9q4esdfk2aQTmNz0pCr65dM2HGwA1Eevnbp0sYGPGPZEnymY6k/e/TD0rJcN1jHA/WbY3jJ1dEPngrNblFk/Auvg0+jR3l3QtzK3sofEU0GUIWeP/EwRxP6B5On3PRWhcddK8DciTRYY9Eym8v9WphTwSuTg2INiTMUE6ebSy9qx3FBo6muaLklzFmGNhxXtJ0D3MfoywMHZ5Rx0=
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><message session_guid="95f77eb0-0bbd-4f47-9eee-7b41a661b953" schema_version="3644767c-2632-411a-9416-44f8a7dee08e"><response xaction_guid="e1c38f30-50a0-4ccf-a74a-c7ec11b54544" type="bad"><params><device_uri>{CEFC1E07-CFF6-4F27-AB05-4577A33A1BA8}/{TFP4026DX}</device_uri><reason>Invalid Device type</reason><timestamp>1472488864</timestamp></params></response></message>
+
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e' session_guid='95f77eb0-0bbd-4f47-9eee-7b41a661b953'><request type='createdevice' xaction_guid='e1c38f30-50a0-4ccf-a74a-c7ec11b54544'><params><device_uri>{CEFC1E07-CFF6-4F27-AB05-4577A33A1BA8}/{980abc1234567}</device_uri><country>US</country><region>United States</region></params></request></message>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><message session_guid="95f77eb0-0bbd-4f47-9eee-7b41a661b953" schema_version="3644767c-2632-411a-9416-44f8a7dee08e"><response xaction_guid="e1c38f30-50a0-4ccf-a74a-c7ec11b54544" type="ok"><params><device_uri>{CEFC1E07-CFF6-4F27-AB05-4577A33A1BA8}/{980abc1234567}</device_uri><timestamp>1472489164</timestamp></params></response></message>
+
+
+Stat device 
+-----------
+
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e' session_guid='95f77eb0-0bbd-4f47-9eee-7b41a661b953'> <request type='statdevice' xaction_guid='e1c38f30-50a0-4ccf-a74a-c7ec11b54544'><params><device_uri>{CEFC1E07-CFF6-4F27-AB05-4577A33A1BA8}/{980abc1234567}</device_uri><country>US</country></params></request></message>
+
+Jn/et9D4K4x2Du7xhnpZYYeZoFZWxvnOxwzYZoYorasTXAycRIw175NwcfYI8AONDBye9eumnjPoDARzbocQdof46Pu3UVmbffuu4igKnP9s+RxHflp2A0MWP/frNqxoKmKafu0lxiUtqoXIuNX9yBO8CYKztV+IyaYuNKNVsmV1N2NIH3bYJpfE7QL1C+JTw9Q+I2du0wzZwUXxkwHUR8pZfeMkZdM4Dz9gRfkcJoVPh/IEQifhmR8EC4xN4Uk41ZMHcQl2NY1WQxt4XgEcbst/nCl3gmICyCyQnpNEHEShOMWmvgSSZzeoDxt41YEoP7n2aI/EHdCX11yv94kyH2BABonEWwnhpTQZUXZJrRE56bcdWNp94Rdyd7iXUWFQLCTq7fAaiDCoFRzrTKMGAO4ncsw8Adu3SqrLooAVnhA/0LR1eXQ/nuLS+q+O4bkEaLY8R/W12+mKFCzzwDHJgBl8NwhaQNFJUQMjetn8DT7m8P2gf7BLtTDhHVdVNPyo
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><message session_guid="95f77eb0-0bbd-4f47-9eee-7b41a661b953" schema_version="3644767c-2632-411a-9416-44f8a7dee08e"><response xaction_guid="e1c38f30-50a0-4ccf-a74a-c7ec11b54544" type="ok"><params><country>US</country><device_uri>{CEFC1E07-CFF6-4F27-AB05-4577A33A1BA8}/{980abc1234567}</device_uri><timestamp>1472548673</timestamp></params><notifications><notification><body><components/></body></notification></notifications></response></message>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><message session_guid="95f77eb0-0bbd-4f47-9eee-7b41a661b953" schema_version="3644767c-2632-411a-9416-44f8a7dee08e"><response xaction_guid="e1c38f30-50a0-4ccf-a74a-c7ec11b54544" type="ok"><params><country>US</country><device_uri>{CEFC1E07-CFF6-4F27-AB05-4577A33A1BA8}/{980abc1234567}</device_uri><timestamp>1472540287</timestamp></params>
+<notifications><notification><body><components/></body></notification></notifications></response></message>
+
+
+Upload log 
+----------
+TFP402DX
+DeviceInfo
+TFP402DX_DeviceType4_DockingDeviceInfo_03Jun2015_12h_12m_35s_614ms-06-10-2015.html.gz 
+EventLog
+TFP402DX_DeviceType4_EventLog_03Jun2015_12h_12m_34s_201ms-06-10-2015.dat.gz 
+
+
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e' session_guid='95f77eb0-0bbd-4f47-9eee-7b41a661b953'> <request type='postnotification' xaction_guid='e1c38f30-50a0-4ccf-a74a-c7ec11b54544'><params><mailbox>3bd775ad-7250-42ff-adf4-188e0b691bff</mailbox>
+</params><notification oid='95db4769-701b-4aa4-8f6f-f47e124459bf'><header notification_type='event' notification_action='create'>
+<pertinent_type>7a85f0c9-531e-4754-ad68-04c77ed63657/(Device classification GUID)</pertinent_type><pertinent_identifier>(Device serial number)</pertinent_identifier></header><body><logs><log name='EventLog'><meta http-equiv=\"transfer-encoding\" content=\"gzip\"/>
+<uri_inc> (Log Location) </uri_inc></log></logs></body></notification></request></message>
+
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e' session_guid='95f77eb0-0bbd-4f47-9eee-7b41a661b953'> <request type='postnotification' xaction_guid='e1c38f30-50a0-4ccf-a74a-c7ec11b54544'><params><mailbox>3bd775ad-7250-42ff-adf4-188e0b691bff</mailbox>
+</params><notification oid='95db4769-701b-4aa4-8f6f-f47e124459bf'><header notification_type='event' notification_action='create'>
+<pertinent_type>CEFC1E07-CFF6-4F27-AB05-4577A33A1BA8/2F62D564-A162-440A-A5F6-ED16E7E632D5</pertinent_type><pertinent_identifier>980abc1234567
+</pertinent_identifier></header><body><logs><log name='EventLog'><meta http-equiv=\"transfer-encoding\" content=\"gzip\"/>
+<uri_inc> C:/Logs/980abc1234567__EventLog_03Jun2015_12h_12m_34s_201ms-06-10-2015.dat.gz</uri_inc></log></logs></body></notification></request></message>
+
+
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e' session_guid='95f77eb0-0bbd-4f47-9eee-7b41a661b953'> <request type='postnotification' xaction_guid='e1c38f30-50a0-4ccf-a74a-c7ec11b54544'><params><mailbox>3bd775ad-7250-42ff-adf4-188e0b691bff</mailbox>
+</params><notification oid='95db4769-701b-4aa4-8f6f-f47e124459bf'><header notification_type='event' notification_action='create'>
+<pertinent_type>CEFC1E07-CFF6-4F27-AB05-4577A33A1BA8/2F62D564-A162-440A-A5F6-ED16E7E632D5</pertinent_type><pertinent_identifier>TFP402DX
+</pertinent_identifier></header><body><logs><log name='EventLog'><meta http-equiv=\"transfer-encoding\" content=\"gzip\"/>
+<uri_inc> C:/Logs/980abc1234567__EventLog_03Jun2015_12h_12m_34s_201ms-06-10-2015.dat.gz</uri_inc></log></logs></body></notification></request></message>
+
+
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e' session_guid='95f77eb0-0bbd-4f47-9eee-7b41a661b953'> <request type='postnotification' xaction_guid='e1c38f30-50a0-4ccf-a74a-c7ec11b54544'><params><mailbox>3bd775ad-7250-42ff-adf4-188e0b691bff</mailbox>
+</params><notification oid='95db4769-701b-4aa4-8f6f-f47e124459bf'><header notification_type='event' notification_action='create'>
+<pertinent_type>CEFC1E07-CFF6-4F27-AB05-4577A33A1BA8/8E74DB99-F0A3-4DE4-AEED-F17AFB6896FC</pertinent_type><pertinent_identifier>980abc1234567
+</pertinent_identifier></header><body><logs><log name='EventLog'><meta http-equiv=\"transfer-encoding\" content=\"gzip\"/>
+<uri_inc> C:/Logs/980abc1234567__EventLog_03Jun2015_12h_12m_34s_201ms-06-10-2015.dat.gz</uri_inc></log></logs></body></notification></request></message>
+
+<?xml version='1.0' encoding='utf-8'?>
+<message schema_version='$SessionID$' session_guid='SessionID'>
+ <request type='postnotification' xaction_guid='1d65b46d-d14d-4bcd-9c50-083102cc043c'>
+   <params>
+     <mailbox>3bd775ad-7250-42ff-adf4-188e0b691bff</mailbox>
+    </params>
+ <notification oid='95db4769-701b-4aa4-8f6f-f47e124459bf'>
+   <header notification_type='event' notification_action='create'>
+    <pertinent_type>7a85f0c9-531e-4754-ad68-04c77ed63657/(Device classification GUID)</pertinent_type>
+     <pertinent_identifier>(Device serial number)</pertinent_identifier>
+   </header>
+   <body>
+     <logs> 
+           <log name='sysdiag'>
+           <meta http-equiv=\"transfer-encoding\" content=\"gzip\"/>
+           <uri_inc> (Log Location) </uri_inc>
+        </log>
+     </logs>
+   </body>
+ </notification>             
+</request>
+</message>
+
+
+
+

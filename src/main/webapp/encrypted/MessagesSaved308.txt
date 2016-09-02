@@ -1,0 +1,36 @@
+create session 
+---------------
+
+
+dqivxz5EqfKiau2IPkH4/wsQWqshM8NVuJ7yDKWOm3R5Qi+gRMuA9pUkt0p5sOvMvavP90IUcXDYksjhfcAMuoJES0/ly7EeFmG5Q81ITihkQcpu7gmda25+chEe5Cys0PIuWP5cO5UeWlo2Tb8y53Nrx5Wmm4tWd1QwGdEjAFK6MhHxpr52xAwFGRkqNV7QpG+BRmf7vrM3CEqNCBcFmlNFd2M6NjgA9cTELkhnYoH+4Q0dUW9ORp644zlT/k4XxyavNFbvKDOc8kncNZOgX5PJj87B2iCP
+
+MYUmSKWaDpmOZgteC6Z8gvhUnE//NuehRy2fSQdqRNuuDWX1uZw1HEXqqh8ZFtpzyoTJ0enCp0viUjoryCnmXDknLK5CFUQqwD4BseP1Dz6jsQ6vRWiBuKL3zFDui3NShB5FPMNoR9TNbvA30eN8hC2hZOoyWHJWcngZSsvuvr+MX/6B8TfPzjJbOxFi0DVs4mcSLxS5zVVtp8QDaaldczPD3bOsIDHRMGVJOmGMNrKYJ4aD+Bw1Z3oA1+JckPCjswVjhgvjQk7S4z98DDSOW+lUjBTN3a1JgWXJ5QKmp5rawQwdjl+44O/WTpX7f54RmRKK5u/x9qvoAwj1C7UMkCF/qnq44w+C6X6v1u9VX3F0lrJWIgNxssXACEHayvT650CIf7eAGBva6LeMVtoEqDnNXwiTHixN6OKu7tu/khw48X9xTwPc+xCGBZXUIgmo
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><message schema_version="3644767c-2632-411a-9416-44f8a7dee08e"><response xaction_guid="0f16a851-a043-498d-a857-77ee5c59499c" type="ok"><params><sessionID>95f77eb0-0bbd-4f47-9eee-7b41a661b953</sessionID><timestamp>1472485340</timestamp></params></response></message>
+
+Open session
+------------
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e'><request type='opensession' xaction_guid='0f16a851-a043-498d-a857-77ee5c59499c'><params><timestamp type='network'>1441780442</timestamp><sessionID>95f77eb0-0bbd-4f47-9eee-7b41a661b953</sessionID></params></request></message>
+
+5Lj+1lHp7QjNCEqoX5bn8tr5F2UR1kffjN2M20i97mXSBo+KCAc0pUNVseQRR7XOiLfbKjn63hcEFCPwU0qcagOpliB/uNLeRi/hfFOr7hjHW91mOxtK9/tfBgOvp8LkLjIKoU/mFOSC3i7Gqn8pE6iuUg/id1MsKak6fGVVxllyMEekh+/fzPVrUcBMaEJYBsRpn8pUulF3U6xIhpPwJEmrjGQQgWFVoRcEmGyT4wXBZxQr2zY0wl1DuSobwPYEygF4ORtnGcRPoBT9Bd2u10dlCAUJzZmAARC3rXAeZ5rY8kggXu5niOSmFwAJNcjcNR4qV07BxvujqlWREUL9zAoZcWj8znJmVwdQVSHn0ar2PNWO4pmJcPY6sQAbaPDLKAuJHDc17izRF5c8SIArZzs6WR9GFjyXhES8KJ58dj8Eb+HpjZqv0MXkfIx8eaNk
+
+F7SxkMq8SE1vCFAyYq/sz2t03bKDSEcR8lx3m4wzx0VJIn9PV1kWRQjQ3mphsZ9PtUVbg7Rj88FAs8Nj1ZnSvestS1m1o0MvKVxADk2PS0imNJiKaPzsMzbUPjcAB7MfDKX3CWU+1Gi99vRo1JHRn1zbCxCpsRofA+TKvWZxrBQ3Kr1+orMo6pUIt7t/U4OtoVXP+PVo2L9MRsMjNzlHRAlGPqw0adWvsq5P6RnOZSJ6Rc15QDUvOBZ39YZK38h6wxwWuN+nsuL8kZ8dXXJStA5zkeCOKLZf+8iHXUHdUKiIiQ8VRi9mYhjGk0iW+aNIITL4Y4Bdj47drQ5t9ppePnPlgtXraJUxt/uxxfI4Q/9Cx6UTm6mvb1p1CP+P1WkmQZgK8qyItHol9ZeC7espUN7XdLp5hhZmPxzQjUX4szBJoEjzRfkFUr5+ulMpbEkq
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><message schema_version="3644767c-2632-411a-9416-44f8a7dee08e"><response xaction_guid="0f16a851-a043-498d-a857-77ee5c59499c" type="ok"><params><sessionID>95f77eb0-0bbd-4f47-9eee-7b41a661b953</sessionID><timestamp>1472485635</timestamp></params></response></message>
+
+Login
+-----
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e' session_guid='95f77eb0-0bbd-4f47-9eee-7b41a661b953'><request type='login' xaction_guid='e1c38f30-50a0-4ccf-a74a-c7ec11b54544'><params><username>Sreekumar.PG@cognizant.com</username><password>Artemisfowl$500</password></params></request></message>
+
+GijEjBpqjLcFOceR4OxOEWd87bEVt4N9DSVq4vkGUr600PaFzL10WCCwEf0Ao2riXRC+9YqEr/mKetxi6DyhEDa90T97yzuFVNvO3yUd43AFJS+WiIAJk7CmLpoOpSAXxMLn7Zf8ZPSBSYZSZK91GyrRQe8BqDWZk3qxOo0SMQuVAibkKWxqdo5ymIqj9APBevh96Rx9Fi4Q0WWj7w8GJfgjsLzdBP0S0Q6bSycwMfmthuDR7LNeTeqrsom92suIxyaBWO21l4R673KGTmi3r369m8ttkxAunACpYmmFSVAxhuMeDGiM5+7aL2EJQQWOx0yYrkh6BqgQWjn4pp2URIZ47yUcg4XiPU/Jj5kyD7FD9GRLJ8nLO4QZFjYDUo5G5kDdHSx1j4B41XkunRlir/Kqf+AR7ZjFFvw7qgiVChvW9g0/AO9ntvcVkbZCGcZMW7AcPMGJ9OBDS1zfPTO7Y3+t6Qy8n3yy
+
+
+jtTtRbZWQyG2TQha808rWW5OBShi+5AYK4PT9TKynXykDu4rW0kZZ7ILcgiDvG6yRv5z8PZAbj7UZIaDPBNfAAIi2RxToBVgXa9ljwHpdEMfQsT2rngsu9nBzA/DA+jecSg9MSaFOZBdQZAseaBJGSJhbdnmcV5rxwvqMuGMGB7HmUZjzXdpqkybNAepZsSByn2Yn13PMBBXpM477tV+9SpD9QSJU807fA0WYtBDbUU9K1d3zv88RE1etxtE9ifTDgaoxRpTneQ28w3ruv3NM0VtfBxyOVWmJwaDGheBrqxWbqw9V/TzomsUPzdMVx8VxJ3nIKCbKYI6IgMtg8oXwtlbR3FK//rll1n67SHSdZGDXgfPdyJ7r8kCGw2GhPmEcs57EEF2kXJXRyXZAywe/k1zX3f2fZO5SLAfneNqZe9SnCCl68eW042C2OLTTCiKBLRsSh3Bs+3MGT3trECLTrGZgFxWNCjQ6noiUmdImksnmX0K85UGQjfF+t6HPKsotIF04ch23xS4PFcFvSc+zIbU3A7EfKZMzA0xfJ311LvQsSWoB9T84lXycYka5cHvngFS840wQMuuHjxmewYbrbN2jn9Phv1xpx65svizi9eYysetEi+IKTHZPO6yMIjvLtX6lh7+lUPloUssvL9M1Nz/62IftuQjOb1kEE77APTzDuVireUnQvzxMrLOT4N2k/gzn3gEGDsf0wz/oxgqeHXY6ZHHlh+Jw1bHhXvrcZ/JM29f8+1ste9hf3Ylm4k55YdLBL9Xki7/nQR6nDbTiDvVG0qiEqyE03loYa8ZOc0EUJ6Kbkr9st1ymzV7jVNv0u6YlVnPGA3nojyzBWqGkynjLP5TGAb85FR7M96HT/OJbjHKltAOANVBivjNfTCtcWFGzUQn1kT61JDKho8X+oMquxwMqzf1VlkECDHLRuRFLtDt4RyjguKzyHNL7OIdh1ZpSt9Vwi5wCKrtai/TBmcXPEJDtZUymR7jXjHQ9+jEsJXr8uImhi8im/e2C4SXH0bhy3lmdLhNmnS4KN28YYv2NNjZNAku+H4KCF+CeYF9lk2lThzPmug0ulwTyF0XZR808W7jjTqIheItjDoKe0rNrpUdjr00qPTxTB28Guwhe5OAh8dBCS5e8XuV0+KlxguifU8zHVyGwZvi9MQv3p19+4X1ghptgh0gLIkdHXMSlGhwpwkHlkKU9EjMEms7iLjJDM+Z3efOr4t8EYYrSAQlbADfoI0AzV736ZTJG5Hms8305zBTOIytHI3gE51Jp2sMLPhMes35e1nRZh++dnP2MPZsy13iwtRzcmoWcIT84BAm7agGxzrtsV/bueSGUQJIC4LE0DljQiQW/EZyMp63S+lhTmTLoYPmgXY955Lh73lyYYIw/AW0bkmgr3tL
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><message session_guid="95f77eb0-0bbd-4f47-9eee-7b41a661b953" schema_version="3644767c-2632-411a-9416-44f8a7dee08e"><response xaction_guid="e1c38f30-50a0-4ccf-a74a-c7ec11b54544" type="ok"><params><timestamp>1472486462</timestamp></params><userlogin><country>IN</country><deactive>false</deactive><passExpiration>2016-10-23 14:51:33.0</passExpiration><permissions><permissoin><device_type>Valleylab FT10</device_type><user_access>2</user_access><testing_software>true</testing_software></permissoin><permissoin><device_type>VLEX Client</device_type><user_access>2</user_access><testing_software>true</testing_software></permissoin><permissoin><device_type>Valleylab LS10</device_type><user_access>2</user_access><testing_software>true</testing_software></permissoin><permissoin><device_type>SigniaTMStapler</device_type><user_access>2</user_access><testing_software>true</testing_software></permissoin></permissions><covidien_user>Yes</covidien_user><training/></userlogin></response></message>
+
+
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e' session_guid='95f77eb0-0bbd-4f47-9eee-7b41a661b953'>
+  <request type='createdevice' xaction_guid='e1c38f30-50a0-4ccf-a74a-c7ec11b54544'><params><device_uri>{61e08b77-df3c-4735-9f3b-0b42efb7bdcf}/{V7777777BX}</device_uri>    
+  <country>US</country><region>United States</region></params></request></message>

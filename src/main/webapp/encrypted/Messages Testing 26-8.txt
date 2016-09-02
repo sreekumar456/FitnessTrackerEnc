@@ -1,0 +1,42 @@
+java -cp your-classpath-dependencies-here -jar hello.jar "arg1" "arg2"
+
+java -cp classpath -jar la.jar "start"
+java -cp C:\opt\LaptopAgentV3.3\lib -jar LaptopAgent.jar "start"
+
+
+Create Session 
+---------------
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e'><request type='createsession' xaction_guid='0f16a851-a043-498d-a857-77ee5c59499c'></request></message>
+
+BGpQHJSc/qUX40wjqF4cWAl8uj5mwTYCW/rP7sxqK0FE4Yjj7gj8OLUnDHXd2yl4bT0RbiInyzIzBE5zg3alrhU2JU5wP4clFbeBufgC6s3EGIjny/7zaAgoR6WUuyeKPHFuC1ZxAOpTKtc2Zt6KCQ1d+6uV0Nei16kww+8ALIpr5y1aDxZrlZXPA78w9qUjW9I1Tx/6XSJISe14dAjooFznoY7lRT/4ePgyk8/Q2xTCbzGSSI5GjNnRbBeMbCeSJScLmk5fMMH7IvJhoAFvVfPupkFNXmfI 
+
+Response received 
+----------------
+lGat85iLv+pVlMGFgxC6eLj+YPQnQL+uo+8+tiS+NzYfy9jUnAL2WAJmMXdcuNdTVT8EoVgF1Je+KJWSVIIhbMorGGynWZ+k48yYwk0oydm6eDCJGd2Jktu0JvK++QD6xZEGWWZiYApPKTwn30B2QEWLOHsfkFhEPcJYZdWYyBROfM1P4CYSwpcbcZuJYAzCOHKJL0MVzHbhlm0+wmEpPX5lwdfG95KxFIFnLai5aPK1+nPXFELqusW2Cyzv0BFzH5zFSF8TOGRcVBa6bQDA0IZ+ibksGMg4cw3IxiV79G1KtCYgrsug2HEwS1TSTfr+NocvFazkygD6FM1K4reqWN1uI9hmA5k/6RU3LJ8kOQMJ3ICuPNE2PxUsw82nZeRdziFs6WgVfwIcN+t+JgcA3qe9FxMgxAEttRFFLuf42KDXZpUh+gt1eFTTRF4Mglqf
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><message schema_version="3644767c-2632-411a-9416-44f8a7dee08e"><response xaction_guid="0f16a851-a043-498d-a857-77ee5c59499c"type="ok"><params><sessionID>2bf1bfa6-898a-42c9-a62d-30164ae43b72</sessionID><timestamp>1472045055</timestamp></params></response></message>
+
+open session 
+------------
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e'><request type='opensession' xaction_guid='0f16a851-a043-498d-a857-77ee5c59499c'><params><timestamp type='network'>1441780442</timestamp><sessionID>2bf1bfa6-898a-42c9-a62d-30164ae43b72</sessionID></params></request></message>
+
+X6x8X+YhKaxkEwkePd/U3fEoz3R2Ilb8/9rjOEhuPXTcOysgSsaqdMFZ8rVFnWWp/2uJAivNmjxNVdbpb5uDjFXfh0cAvr+uY51WdkSzPILcbO/Azji7fUzfqOZ9BfCTY4WwHdeBfpdD152VderYRA4geIBsfwXFHIGURbYrxsqqaJpCyveddl8tGXGVHqgUszultJ7zqZMeQkFkDB3vtDPv4u+LazASPd8bczz8GZ09xDjtm4dE54X91kjiu9j89XcLu84JL5457Aq0Fqq08nuYM4IVrsqjF7ziAXC8Tek13pqyJI+oxo2XvxkIkr9qyZtgsr8U4HPUi/cig302fpzK0fEfg3Dq9dnH0u0TvIqFyAgz45MojHickq2xtpbvnAtX5F0Nztvs60lHAGwz6NvwY87UAYyQia4LbVIkaocGDeYzfTQRVvUo3xWb4juv
+
+rqq+tsZY7/o37sfjDcHLg6d8/BDH9iMLMf77FgrmFRPylz2A51jdANKhsBAQsYOuepK1bjHqHkUihQ8D8sxhjCWI1hw4UoB7q0lU0D79r6iQ1TN0xX6SD/YytZP8FROu/czVK1umChnYy+OqZ4cKMDbVXaJ3V3omzB2KUGcCQ+PN/bgoJ8UQAtN0oEVTTz9zVVC/NQmCyq9hCgVYbS2bcioLmfgkUfPn5KqTZl6kkUpyPEtHT12kehkn385Rmbf7iBkNDIFKXBOYtoUqragY1cX6QFQclxCGBoXwK6xEvDsEOu+GO5kFbPpTFGqAbDUK3li7ZkpquY0USX8A4YnXrxuvs5lXuSIP7Z0TlSxu679UJhceSAxs6ky77st6b4vHWmM9t5mztr4lRcz8aSLhn4eeemnnJn+35RxknAlil7mXxqJ+fwU3Oztbz9O8kiGg
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><message schema_version="3644767c-2632-411a-9416-44f8a7dee08e"><response xaction_guid="0f16a851-a043-498d-a857-77ee5c59499c" 
+type="ok"><params><sessionID>2bf1bfa6-898a-42c9-a62d-30164ae43b72</sessionID><timestamp>1472046005</timestamp></params></response></message>
+
+Login
+-----
+
+<?xml version='1.0' encoding='utf-8'?><message schema_version='3644767c-2632-411a-9416-44f8a7dee08e' session_guid='2bf1bfa6-898a-42c9-a62d-30164ae43b72'><request type='login' xaction_guid='e1c38f30-50a0-4ccf-a74a-c7ec11b54544'><params><username>Sreekumar.PG@cognizant.com</username><password>Artemisfowl$500</password></params></request></message>
+
+0nfDiuLkXbYf11mwM4WXViiv7/a5UGLs2YOmkbXsLbP5rt/jicJxRqD1wIQwKrICCVpGnXr0QL+D65zTj6ikPG6Sh9FlHatoT3FL2T0UIDM6v1WWWewXHwzrkXwj9/827JSnF6ae0hiLDAkCJmVBADK/wf0HRRb3rqIQIhnRBayOmnz6PzB9SA7sBr+h2sUgqqtGlm3qKb9JNs3c0nytEk7oMm/sg9pFqBQzej7KxX6FkjwEP/PzRDiUANhAIEDvbdyKAAJkP3owUFhQoifPCvcY9JBBkMEiNAcWI0joynnbQC6HeNLHfIVV6kmVZNXpOHY+lrWs9uUDC6e3JRHBDtAO9tFrUG7RovQlF026yF5pNpRsRRrRzCP9ufsi8B00ZAcrUA8uICgIlWnfTR+1nKeaEUo0Oac9FQcVv2MEnyhHQTmQt6VxARfDNL+1kShWYXFjEbmbxtY3D4Sd9CtWaxajw3eQp0Jp
+
+h1/Q1iQ1LerZIJ1RPZUnazZyLKU6V/nKqP/Bqt7FoLKFeofjybIAFGgUnRy7zoq8RctJp2B1qRmn2mSV4u6XsFS4Ez4fZQ7lZcVoNMUnTeQoa91Wkihsx/jNl6bGn7bWMIPthjsaPXNq2SwUfDcMWObM76iX7uHavVislg1AhNqHabpjUJUMVdhJcY5JbWjq1Gme0w1z3puobrc6y2lsoGFwdR+KJ37KYYqzCwlmFAxSuyjuD/gODz56XT2UVKXlH0isdQjNcbuIKCLRpB4hTFNjmfgoPj+zfa8kUSfbj/mqrkJRo92MPgIBTC44+puViXi9eYqemZ3HxylFcCaZfbqcc6ksDehF8o40jcLiqHV4H6ArpR0tn8Mk+hjZCXkDxxMDoIFmeg1Xi26ZDNyie6RajXMGPoF1ttHOI2DauAYBguUeZtNnw4koYRflquEU2jw1tWq5NorFyD8wZYCGMHhlhHOHqFrNiMgzy+gvdWQMNYN975RV/187e6lbL24TyV14Fd+oGjoc9zTJYaTYuyk6WG0EmWCuVFUw+Bj5hMZvgdOnjODm02yLoNhYFNGkn4cmiLnMnOsm4xB088ZEufhw7DVb6JYKN9TvdegtlMjElatJIcvMBLFI5O3LoUoJJGBuCB6r2psj//skRUcmE5XgUES9ObBQNGWqHj8wdoN5z6K4al7/bRImgRSGP5WEwlZOFBRtIKQGcfGRloLHu3csggBe+gDKYfai3vYL9p24dbwC9exl5PsdOYNpglB/ra62EcbG0pc7d8EQgxYoJg5AqachGJoT6e4ydad0ZwPTi25YNqeVNJTPMlYuvPZyNmPWo04zH2Wd1InYpwXt/YS2Kf+YFMT4CMxAbHqptQ5Yrkj1LGtzr1rWREi4SRKk8DzKgsEMwGYW32mv+B9mlgxoCJlag+FrhVTONslpHLBVnVKPtBb7WGsiTmStHWnzhZ/GbgxFB1k5FCqhEWuJVMiulmyW5STRhYdlo9o9xWgKfcn2FWZOD7OjzVgbUVuz7dXukX6bm2CcoTHGcilWcQr1x5s/hYiL0R9nXN2K37rS/JofmkYrUabFgd5Nr+TQi2nsNhFtR8lj4iyXvJzHnjQofeTSQCW93mmbY9ndtggvHZgUJCo/dVjuMmYCv71ROp1fK46o5CzKndp88u910NqDfxtpgcJwJr9N+cmvHJ9xFeGPKKUkjp41tnARAUg5khNz614BWeKgszwJ/Ib8kC2ifjf++PqF2+038UET1szl/7ch+uRNqL4dt+aM0f5P9WS29sXgl6NOlx3lcbUfMOGKA28bTmUESc6JdoL17tCxWsdvsm6n4Z0RrgiylV/ciYEZwciqYN7htqF+SDNm6Y7pNE1LJuZ9zXAAn94H3i3CKo1PuoQIKL2x7FDUxnsD
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><message session_guid="2bf1bfa6-898a-42c9-a62d-30164ae43b72" schema_version="3644767c-2632-411a-9416-44f8a7dee08e"><response xaction_guid="e1c38f30-50a0-4ccf-a74a-c7ec11b54544" type="ok"><params><timestamp>1472047812</timestamp></params><userlogin><country>IN</country><deactive>false</deactive><passExpiration>2016-10-23 14:51:33.0</passExpiration><permissions><permissoin><device_type>Valleylab FT10</device_type><user_access>2</user_access><testing_software>true</testing_software></permissoin><permissoin><device_type>VLEX Client</device_type><user_access>2</user_access><testing_software>true</testing_software></permissoin><permissoin><device_type>Valleylab LS10</device_type><user_access>2</user_access><testing_software>true</testing_software></permissoin><permissoin><device_type>SigniaTMStapler</device_type><user_access>2</user_access><testing_software>true</testing_software></permissoin></permissions><covidien_user>Yes</covidien_user><training/></userlogin></response></message>
+
+
+
