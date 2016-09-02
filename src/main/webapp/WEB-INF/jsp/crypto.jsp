@@ -60,7 +60,7 @@
           &nbsp;
         </p>
       </div>
-     <form:form commandName="goal">
+  <%--    <form:form commandName="goal">
 	 <form:errors path="*" cssClass="errorblock" element="div" />
 		<label for="textinput1">
 	          Enter Text:
@@ -68,7 +68,7 @@
 	<form:input path="encryptMessage" cssErrorClass="error" />	
 		
      <input type="submit" class="btn" value="Encrypt Message"/>
-	 </form:form>
+	 </form:form> --%>
      
       
       <%-- <form:form commandName="goal">
