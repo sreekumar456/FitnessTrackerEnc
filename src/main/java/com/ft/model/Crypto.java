@@ -1,6 +1,6 @@
 package com.ft.model;
 
-public class CryptoMessages {
+public class Crypto {
 	
 	private String inputEncrypt;
 	

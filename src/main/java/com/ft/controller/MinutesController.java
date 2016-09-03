@@ -1,7 +1,5 @@
 package com.ft.controller;
 
-import java.util.List;
-
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,18 +9,17 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.servlet.ModelAndView;
 
-import com.ft.model.Activity;
-import com.ft.model.CryptoMessages;
+import com.ft.model.Crypto;
+import com.ft.model.CryptoFunctions;
 import com.ft.model.Exercise;
-import com.ft.model.Goal;
 import com.ft.service.ExerciseService;
 
 
 @Controller
-//@SessionAttributes("Crypto")
+@SessionAttributes("Crypto")
 public class MinutesController {
 
 	@Autowired
@@ -47,39 +44,57 @@ public class MinutesController {
 		return "addMinutes";
 	}
 	
-	@RequestMapping(value = "/encrypt", method = RequestMethod.GET)
-	public String encryptCrypto(Model model) {
-		
-//		Crypto crypto=new Crypto();
-		
-	/*	Goal goal = new Goal();
-		goal.setMinutes(10);
-		model.addAttribute("goal", goal);
-		*/
-		return "crypto";
+	@RequestMapping("/encrypt")
+	public ModelAndView initializeForm()
+	{
+		Crypto crypto=new Crypto();
+		System.out.println("inside");
+		return new ModelAndView("crypto","Crypto",new Crypto());
 	}
 	
+/*	@RequestMapping(value = "/encrypt", method = RequestMethod.GET)
+	public String encryptCrypto(Model model) {
+		
+		Crypto crypto=new Crypto();
+		
+		model.addAttribute("Crypto", crypto);
+		return "crypto";
+	}*/
+	
 	@RequestMapping(value = "/encryptMessage", method = RequestMethod.POST)
-	public String encryptMessage(@Valid @ModelAttribute ("encyptMessage") CryptoMessages encyptMessage, BindingResult result) {
+	public String encryptMessage(@Valid @ModelAttribute ("Crypto") Crypto encyptMessage, BindingResult result) {
 		
-		System.out.println("Input Message"+encyptMessage.getEncryptedMessage());
+		System.out.println("Input Message"+encyptMessage.getInputEncrypt());
 		
-//		model.addAttribute("goal", goal);
+		CryptoFunctions cryptoFunc=new CryptoFunctions();
+		String s=cryptoFunc.encrypt(encyptMessage.getInputEncrypt());
+		System.out.println(""+s);	
+		encyptMessage.setEncryptedMessage(s);
+		System.out.println("model"+encyptMessage.getEncryptedMessage());
 		
 		if(result.hasErrors()) {
 			return "crypto";
+		
 		}
 		
 		return "crypto";
 	}
 	@RequestMapping(value = "/decryptMessage", method = RequestMethod.POST)
-	public String decryptMessage(@Valid @ModelAttribute ("decryptMessage") CryptoMessages encyptMessage, BindingResult result) {
+	public String decryptMessage(@Valid @ModelAttribute ("Crypto") Crypto decryptMessage, BindingResult result) {
 		
-		/*CryptoMessages crypto=new CryptoMessages();
+		System.out.println("Input Message"+decryptMessage.getInputDecrypt());
 		
-		Goal goal = new Goal();
-		goal.setMinutes(10);
-		model.addAttribute("goal", goal);*/
+		CryptoFunctions cryptoFunc=new CryptoFunctions();
+		
+		String s=cryptoFunc.decrypt(decryptMessage.getInputDecrypt());
+		System.out.println(""+s);	
+		decryptMessage.setDecrytedMessage(s);
+		System.out.println("model"+decryptMessage.getDecrytedMessage());
+		
+		if(result.hasErrors()) {
+			return "crypto";
+		
+		}
 		
 		return "crypto";
 	}

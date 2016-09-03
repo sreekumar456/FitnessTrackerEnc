@@ -23,6 +23,15 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+   	<script type="text/javascript" src="jquery-1.8.3.js"></script>
+   <script type="text/javascript">
+		$(document).ready(
+			function() {
+								
+			});
+		
+	</script>
+   
     <style>
 		.error {
 			color: #ff0000;
@@ -60,28 +69,27 @@
           &nbsp;
         </p>
       </div>
-  <%--    <form:form commandName="goal">
+     <form:form method="post" action="encryptMessage.html" commandName="Crypto">
 	 <form:errors path="*" cssClass="errorblock" element="div" />
-		<label for="textinput1">
+	 <label for="textinput1">
 	          Enter Text:
-		</label>	
-	<form:input path="encryptMessage" cssErrorClass="error" />	
-		
-     <input type="submit" class="btn" value="Encrypt Message"/>
-	 </form:form> --%>
-     
+	 </label>	
+	 <form:textarea path="inputEncrypt" rows="5" cols="30" />
+	 <input type="submit" class="btn" value="Encrypt Message"/>
+   
+	 </form:form>
+	 <textarea name="input" cols="50" rows="10">${Crypto.encryptedMessage}</textarea>
       
-      <%-- <form:form commandName="goal">
-		<form:errors path="*" cssClass="errorblock" element="div" />
-			<label for="textinput1">
-	          Enter Minutes:
-	        </label>	
-			<form:input path="minutes" cssErrorClass="error" />
-			<form:errors path="minutes" cssClass="error" />
-			<br/>
-			<input type="submit" class="btn" value="Enter Goal Minutes"/>
-	  </form:form> --%>
-     
+      <form:form method="post" action="decryptMessage.html" commandName="Crypto">
+	 <form:errors path="*" cssClass="errorblock" element="div" />
+	 <label for="textinput1">
+	          Enter Text:
+	 </label>	
+	 <form:textarea path="inputDecrypt" rows="5" cols="30" />
+	 <input type="submit" class="btn" value="Decrypt Message"/>
+   
+	 </form:form>
+      <textarea name="input" cols="50" rows="10">${Crypto.decrytedMessage}</textarea>
       <div class="control-group">
       </div>
       

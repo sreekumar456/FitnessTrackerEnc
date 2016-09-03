@@ -48,16 +48,17 @@ body {
 	<div class="container">
 		<div class="hero-unit">
 			<div>
-				<h1>Welcome to Fitness Tracker!</h1>
-				<p>To get started, we need to enter a goal for what we want to
-					exercise for today.</p>
+				<h1>Encryptor!</h1>
+				<p>Click on the link to start</p>
 			</div>
-			<a class="btn btn-primary" href="addGoal.html"> Add Goal » </a>
+			<%-- <a class="btn btn-primary" href="addGoal.html"> Add Goal » </a>
 			<sec:authorize ifAnyGranted="ROLE_ADMIN">
 				<a class="btn btn-primary" href="editGoal.html"> Edit Goal » </a>
 			</sec:authorize>
 			<a class="btn btn-primary" href="addMinutes.html"> Add Exercise
-				Minutes » </a>
+				Minutes » </a>  --%>
+			<a class="btn btn-primary" href="encrypt.html">
+				Encypted message » </a>
 		</div>
 		<div></div>
 	</div>

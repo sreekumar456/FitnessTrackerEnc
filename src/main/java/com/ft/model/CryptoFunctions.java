@@ -33,7 +33,7 @@ public final class CryptoFunctions {
     /**
      * Private Constructor .
      */
-    private CryptoFunctions() {
+    public CryptoFunctions() {
 
     }
 
