@@ -22,7 +22,7 @@ import com.ft.service.ExerciseService;
 
 
 @Controller
-@SessionAttributes("Crypto")
+//@SessionAttributes("Crypto")
 public class MinutesController {
 
 	@Autowired
